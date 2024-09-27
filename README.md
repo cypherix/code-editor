@@ -24,10 +24,10 @@ An online collaborative code editor where users can create files and folders, st
 
 ### Backend
 - **Runtime**: Node.js
-- **Framework**: Express.js or Fastify
-- **Database**: PostgreSQL / MongoDB
+- **Framework**: Express.js 
+- **Database**: MongoDB
 - **Real-time Sync**: Operational Transformation (OT) or Conflict-Free Replicated Data Types (CRDT)
-- **File Storage**: AWS S3 (optional for large files)
+- **File Storage**: AWS S3 
 
 ### Architecture
 1. Users create a project with files and folders 🗂️.
@@ -38,7 +38,7 @@ An online collaborative code editor where users can create files and folders, st
 
 ## ⚡ How It Works
 
-1. Visit a slug URL like `/code/exampleSlug` 🔗.
+1. Visit a slug URL like `/exampleSlug` 🔗.
 2. Create or edit files and folders in the Monaco editor 💻.
 3. If someone else joins the same slug, they’ll see your changes in real-time 🔄.
 4. Your work is auto-saved and persisted, so you never lose it! 💾
